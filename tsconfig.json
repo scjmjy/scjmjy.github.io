@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "ES6", // Any target not lower than 'es6'
+        "allowSyntheticDefaultImports": true, // Avoiding some issues related to vuepress-types
+        "experimentalDecorators": true, // TypeScript files for '.vue' needs this option
+        "module": "commonjs", // Avoiding some issues related to vuepress-types
+        "types": ["@mr-hope/vuepress-theme-types"]
+    },
+    "include": ["docs/.vuepress/**/**.ts", "docs/.vuepress/**/**.vue"]
+}
