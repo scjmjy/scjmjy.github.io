@@ -1,39 +1,39 @@
 ---
-blog: true
 home: true
+layout: Blog
 icon: home
-title: iFlyIT 博客
+title: 博客首页
+tagline: 前端|后端|全栈，学习路线图|速查手册|参考资源|技术文档
 heroImage: /logo.png
 heroText: iFlyIT 博客网站
-bgImage: /bg.png
-tagline: 前端|后端|全栈，学习路线图|速查手册|参考资源|技术文档
 heroFullScreen: true
+bgImage: /bg.png
 project:
   - type: project
-    name: project name
-    desc: project detailed description
-    link: https://your.project.link
+    name: 项目名称
+    desc: 项目详细描述
+    link: https://你的项目链接
 
   - type: link
-    name: link name
-    desc: link detailed description
-    link: https://link.address
+    name: 链接名称
+    desc: 链接详细描述
+    link: https://链接地址
 
   - type: book
-    name: book name
-    desc: Detailed description of the book
-    link: https://link.to.your.book
+    name: 书籍名称
+    desc: 书籍详细描述
+    link: https://你的书籍链接
 
   - type: article
-    name: article name
-    desc: Detailed description of the article
-    link: https://link.to.your.article
+    name: 文章名称
+    desc: 文章详细描述
+    link: https://你的文章链接
 
-footer: customize your footer text
+# footer: 自定义你的页脚文字
 ---
 
-This is a blog home page.
+<!-- 这是一个博客主页。
 
-To use this layout, you should set both `blog: true` and `home: true` in the page front matter.
+要使用此布局，您应该在页面前端设置 `layout: Blog` 和 `home: true`。
 
-For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/guide/blog/home/)
+相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/v2/zh/guide/blog/home/) -->

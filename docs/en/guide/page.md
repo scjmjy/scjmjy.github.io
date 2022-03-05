@@ -1,59 +1,60 @@
 ---
-# 这是页面的图标
+# This is the icon of the page
 icon: page
-# 这是文章的标题
-title: 页面配置
-# 设置作者
+# This is the title of the article
+title: page config
+# Set author
 author: Ms.Hope
-# 设置写作时间
-time: 2020-01-01
-# 一个页面只能有一个分类
-category: 使用指南
-# 一个页面可以有多个标签
+# Set writing time
+date: 2020-01-01
+# A page can have multiple categories
+category:
+  - Guide
+# A page can have multiple tags
 tag:
-  - 页面配置
-  - 使用指南
-# 此页面会在文章列表指定
+  - Page config
+  - Guide
+# this page is sticky in article list
 sticky: true
-# 此页面会出现在首页的文章板块中
+# this page will appear in aricle channel in home page
 star: true
-# 你可以自定义页脚
-footer: 这是测试显示的页脚
+# You can customize the footer
+footer: Footer content for test
 ---
 
-## 页面信息
+## Page information
 
-你可以在 Markdown 的 Frontmatter 中设置页面信息。
+You can set page information in Markdown’s Frontmatter.
 
-- 作者设置为 Ms.Hope。
+- The author is set to Ms.Hope.
 
-- 写作时间应为 2020 年 1 月 1 日
+- The writing time should be January 1, 2020
 
-- 分类为 “使用指南”
+- Category is "Guide"
 
-- 标签为 “页面配置” 和 “使用指南”
+- Tags are "Page Config" and "Guide"
 
-## 页面内容
+## Page content
 
-你可以自由在这里书写你的 Markdown。
+You are free to write your Markdown here.
 
 ::: tip
 
-- Markdown 文件夹的图片请使用相对链接 `./` 进行引用。
+- Please use the relative link `./` for pictures in the Markdown folder.
 
-- `.vuepress/public` 文件夹的图片，请使用绝对链接 `/` 进行引用
+- For pictures in `.vuepress/public` folder, please use absolute link `/` for reference
 
 :::
 
-主题包含了一个自定义徽章章可以使用:
+The theme contains a custom badge:
 
-> 文字结尾应该有深蓝色的 徽章文字 徽章。 <Badge text="徽章文字" color="#242378" />
+> A dark blue badge text badge at the end of line. <Badge text="Badge text" color="#242378" />
 
-## 页面结构
+## Page structure
 
-此页面应当包含：
+This page should contain:
 
-- 返回顶部按钮
-- 路径导航
-- 评论
-- 页脚
+- Back to top button
+- Route navigation
+- Comments
+- Footer

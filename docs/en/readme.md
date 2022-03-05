@@ -1,38 +1,38 @@
 ---
-blog: true
 home: true
+layout: Blog
 icon: home
-title: 博客主页
-heroImage: /logo.png
-heroText: 你博客的名称
+title: Blog Home
+heroImage: /logo.svg
+heroText: the name of your blog
+tagline: You can put your slogan here
 heroFullScreen: true
-tagline: 你可以在这里放置你的口号与标语
 project:
   - type: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: https://你的项目链接
+    name: project name
+    desc: project detailed description
+    link: https://your.project.link
 
   - type: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: https://链接地址
+    name: link name
+    desc: link detailed description
+    link: https://link.address
 
   - type: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: https://你的书籍链接
+    name: book name
+    desc: Detailed description of the book
+    link: https://link.to.your.book
 
   - type: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: https://你的文章链接
+    name: article name
+    desc: Detailed description of the article
+    link: https://link.to.your.article
 
-footer: 自定义你的页脚文字
+footer: customize your footer text
 ---
 
-这是一个博客主页。
+This is a blog home page.
 
-要使用此布局，您应该在页面前端设置 `blog: true` 和 `home: true`。
+To use this layout, you should set both `layout: Blog` and `home: true` in the page front matter.
 
-相关配置文档请见 [博客主页](https://vuepress-theme-hope.github.io/zh/guide/blog/home/)
+For related configuration docs, please see [blog homepage](https://vuepress-theme-hope.github.io/v2/guide/blog/home/)

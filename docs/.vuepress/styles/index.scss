@@ -1,0 +1,28 @@
+// plus 1rem
+.sidebar-group {
+    .sidebar-link {
+        padding-left: 2.75rem !important;
+    }
+    .sidebar-group {
+        padding-left: 1.5rem !important;
+    }
+}
+
+.blog-hero {
+    .hero-logo {
+        & + h1 {
+            background-color: #3eaf7ccc;
+            border-radius: 10px;
+            padding: 10px;
+        }
+    }
+    .description {
+        background-color: #3eaf7ccc;
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+}
+
+.custom-container {
+    border-radius: unset !important;
+}
