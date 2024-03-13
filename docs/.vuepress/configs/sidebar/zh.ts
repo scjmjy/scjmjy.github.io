@@ -1,65 +1,70 @@
-import type { HopeThemeSidebarConfig } from 'vuepress-theme-hope'
+import type { HopeThemeSidebarConfig } from "vuepress-theme-hope";
 
 export const zh: HopeThemeSidebarConfig = {
-    '/domain/': [
-        'README.md',
+    "/domain/": [
+        "README.md",
         {
-            text: '编程基础',
-            prefix: 'basic/',
+            text: "大前端",
+            prefix: "big-fe/",
+            children: ["README.md", "roadmap.md"],
+        },
+        {
+            text: "编程基础",
+            prefix: "basic/",
             children: [
-                'README.md',
+                "README.md",
                 {
-                    text: 'C语言与数据结构',
-                    prefix: 'c/',
+                    text: "C语言与数据结构",
+                    prefix: "c/",
                     collapsable: true,
-                    children: ['README.md', 'quick-start', 'advanced']
+                    children: ["README.md", "quick-start", "advanced"],
                 },
                 {
-                    text: '算法',
-                    prefix: 'algorithm/',
+                    text: "算法",
+                    prefix: "algorithm/",
                     collapsable: true,
-                    children: ['README.md', 'quick-start', 'advanced']
-                }
-            ]
+                    children: ["README.md", "quick-start", "advanced"],
+                },
+            ],
         },
         {
-            text: '前端',
-            prefix: 'frontend/',
+            text: "前端",
+            prefix: "frontend/",
             children: [
-                'README.md',
+                "README.md",
                 {
-                    text: 'HTML+CSS',
-                    prefix: 'html+css/',
+                    text: "HTML+CSS",
+                    prefix: "html+css/",
                     collapsable: true,
-                    children: ['README.md', 'quick-start', 'advanced']
-                }
-            ]
+                    children: ["README.md", "quick-start", "advanced"],
+                },
+            ],
         },
         {
-            text: '后端',
-            prefix: 'backend/',
+            text: "后端",
+            prefix: "backend/",
             children: [
-                'README.md',
+                "README.md",
                 {
-                    text: 'Spring',
-                    prefix: 'spring/',
+                    text: "Node.js",
+                    prefix: "Node.js/",
                     collapsable: true,
-                    children: ['README.md', 'quick-start', 'advanced']
-                }
-            ]
+                    children: ["README.md", "quick-start", "advanced", "cheatsheet"],
+                },
+            ],
         },
         {
-            text: '全栈',
-            prefix: 'fullstack/',
+            text: "全栈",
+            prefix: "fullstack/",
             children: [
-                'README.md',
+                "README.md",
                 {
-                    text: '路线图',
-                    prefix: 'roadmap/',
+                    text: "路线图",
+                    prefix: "roadmap/",
                     collapsable: true,
-                    children: ['README.md']
-                }
-            ]
-        }
-    ]
-}
+                    children: ["README.md"],
+                },
+            ],
+        },
+    ],
+};

@@ -3,7 +3,7 @@ home: true
 layout: Blog
 icon: home
 title: 博客首页
-tagline: 前端|后端|全栈，学习路线图|速查手册|参考资源|技术文档
+tagline: 大前端 | 学习路线图、入门教程、实战教程、秘籍教程、速查手册
 heroImage: /logo.png
 heroText: iFlyIT 博客网站
 heroFullScreen: true

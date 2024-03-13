@@ -1,23 +1,27 @@
 ---
-title: 领域
-icon: creative
+title: iFlyIT 是什么？
+# icon: creative
 ---
 
-不同岗位的程序员，需要掌握不同领域的技能。
+iFlyIT 博客网站记录了与『大前端』相关的学习路线图、入门教程、实战教程、秘籍教程、速查手册等。
 
-本博客将技能分为了以下领域：
+通过本博客，您可以学会如下技能：
 
-|            领域             | 说明                                                                                       |
-| :-------------------------: | ------------------------------------------------------------------------------------------ |
-| [编程基础](basic/readme.md) | 无论是前端，还是后端程序员，都需要掌握的基础知识，有助于提高代码质量、编程思想、编程水平。 |
-| [前端](frontend/readme.md)  | 前端程序员需要掌握的知识。                                                                 |
-|            后端             | 后端程序员需要掌握的知识。                                                                 |
-|            全栈             | 全栈程序员需要掌握的知识。                                                                 |
+- 前端技能
+  - [x] 基础技能：HTML/CSS、SCSS/JavaScript
+  - [x] 渐进式开发框架：Vue.js
+  - [x] 跨平台开发平台：uni-app
+- 后端技能
+  - [x] 基础技能：Node.js
+  - [x] Node Server 开发框架：Koa.js/Midway.js  
+- 项目部署能力
+  - [x] Ubuntu Linux 基本命令行的使用
+  - [x] Nginx 代理
+  - [x] Docker 容器化
 
-::: warning 注意
+您可以学会制作以下类型的应用程序：
 
-本博客是以==大前端==的视角来组织知识体系的。
-
-以==Vue.js/React.js等==前端技能为基础，加上==NodeJS/SpringBoot等==后端技能，借助==uni-app/React.js Native/Electron==跨端能力，开发==跨平台的应用==（PC Web, PC App, H5, Android, iOS, MiniProgram）。
-
-:::
+- [x] PC Web，即电脑端网页应用
+- [x] H5，即手机端网页应用
+- [x] App-plus，借助 uni-app 平台 和 Vue.js 开发的 Android、iOS 应用
+- [x] MP，借助 uni-app 平台 和 Vue.js 开发的小程序应用
